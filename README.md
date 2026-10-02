@@ -4,7 +4,7 @@ Prebuilt desktop releases of **Forensic Evidence Viewer** by BBSoft LLC.
 
 Visit [the product page](https://bbsoftllc.com/forensic-evidence/) for features and download instructions, or browse [Releases](https://github.com/qchen9999/ForensicEvidence-Downloads/releases).
 
-## Version 0.1.1
+## Version 0.3.5
 
 | Platform | Requirements | Package |
 | --- | --- | --- |
@@ -20,7 +20,11 @@ Compare downloads against `SHA256SUMS.txt` supplied with the release.
 
 ## Third-party components
 
-The binary packages include third-party license notices. The separate `ForensicEvidence-0.1.1-third-party-sources.tar.gz` release asset supplies native dependency source, license texts, provenance, and rebuild materials, including libewf. These components retain their respective licenses and applicable replacement rights.
+The binary packages include third-party license notices. The separate [dependency source release](https://github.com/qchen9999/ForensicEvidence-Downloads/releases/tag/dependencies-v0.3.5) supplies native dependency source, license texts, provenance, and rebuild materials, including libewf. These components retain their respective licenses and applicable replacement rights.
+
+Version 0.3.5 adds PDF forensic reports, concurrent local AI picture descriptions,
+configurable duplicate picture reuse, and AI performance regression benchmarks.
+OvisOCR2 development is on a separate branch and is excluded from this release.
 
 This repository contains release information and prebuilt downloads, not the application's source code. GitHub's automatically generated source archives contain only this repository's release information.
 
