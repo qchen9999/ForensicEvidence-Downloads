@@ -2,9 +2,9 @@
 
 Prebuilt Desktop and MCP releases of **Forensic Evidence Viewer** by BBSoft LLC.
 
-Visit [the product page](https://bbsoftllc.com/forensic-evidence/) for features and download instructions, or open the [0.3.15 release](https://github.com/qchen9999/ForensicEvidence-Downloads/releases/tag/v0.3.15).
+Visit [the product page](https://bbsoftllc.com/forensic-evidence/) for features and download instructions, or open the [0.3.16 release](https://github.com/qchen9999/ForensicEvidence-Downloads/releases/tag/v0.3.16).
 
-## Version 0.3.15
+## Version 0.3.16
 
 | Platform | Requirements | Packages |
 | --- | --- | --- |
@@ -14,7 +14,7 @@ Visit [the product page](https://bbsoftllc.com/forensic-evidence/) for features 
 
 For Windows, use the MSI installer or extract the complete portable ZIP. For Linux and macOS, extract the entire archive and follow its README. Windows payloads and the MSI are Authenticode signed by **BBSOFT LLC**. macOS app bundles are ad-hoc signed and are not Apple notarized. Dokany 2.x is a separate prerequisite for Windows read-only mounting. Windows ARM64, Linux ARM64 and Intel Mac packages are not included in this release.
 
-Version 0.3.15 adds remote endpoint enrollment, agent package export, evidence browsing and collection; network/listener profiles; imported-image verification; persistent known-file hash libraries; and Volatility 3 memory-analysis execution and result views. The acquisition menu is now **Acquire Local Evidence…**. It also fixes Unix worker backpressure, concurrent Windows TLS-key cleanup and listener startup scanning the working directory. See the [release notes](https://github.com/qchen9999/ForensicEvidence-Downloads/releases/tag/v0.3.15) for details and validation limits.
+Version 0.3.16 adds Registry analysis with deleted-cell recovery and transaction-log replay, EVTX investigative summaries and linked session histories, multipart PowerShell reconstruction, and support for large mounted directories including EDB folders with more than 100,000 messages. It also adds persistent activity filters and resizable grid columns, and fixes native graphics, image cleanup and protected EVTX handling. See the [release notes](https://github.com/qchen9999/ForensicEvidence-Downloads/releases/tag/v0.3.16) for details and validation limits.
 
 **macOS endpoint logical-file collection remains experimental**, with unresolved source-open and continuous-containment limitations. Synthetic release checks do not establish privileged service/device lifecycle or separate-host physical-device acquisition.
 
@@ -24,7 +24,7 @@ Compare downloads against their SHA-256 sidecars or `SHA256SUMS.txt` supplied wi
 
 ## Third-party components
 
-Binary packages retain third-party license notices. The separate [0.3.15 dependency-source release](https://github.com/qchen9999/ForensicEvidence-Downloads/releases/tag/dependencies-v0.3.15) supplies corresponding native dependency sources, license texts, provenance and reader rebuild materials. These components retain their respective licenses and applicable replacement rights. The companion's manifest records exact inputs and the documented historical APFS validation-test substitution.
+Binary packages retain third-party license notices. The separate [0.3.16 dependency-source release](https://github.com/qchen9999/ForensicEvidence-Downloads/releases/tag/dependencies-v0.3.16) supplies corresponding native dependency sources, license texts, provenance and reader rebuild materials. These components retain their respective licenses and applicable replacement rights. The companion's manifest records exact inputs and the documented historical APFS validation-test substitution.
 
 This repository contains release information and prebuilt downloads, not Desktop/MCP application source. GitHub's automatically generated source archives contain only this repository's release information.
 
